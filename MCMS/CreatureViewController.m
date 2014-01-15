@@ -32,7 +32,7 @@
     nameTextField.alpha = 0;
     isEditPressed = YES;
     myTextView.text = creature.description;
-    myImageView.image = creature.picture;
+    myImageView.image = creature.image;
 }
 
 - (IBAction)onSaveButtonPressed:(id)sender {

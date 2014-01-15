@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A289A691886589B009F427E /* Fluttershy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A289A681886589B009F427E /* Fluttershy.png */; };
+		9A289A6C188658BA009F427E /* PinkiePie.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A289A6A188658BA009F427E /* PinkiePie.png */; };
+		9A289A6D188658BA009F427E /* Rarity.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A289A6B188658BA009F427E /* Rarity.png */; };
+		9A289A7118865D41009F427E /* direwolf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A289A7018865D41009F427E /* direwolf.jpg */; };
 		9AB01B671885D4D300B1B38E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB01B661885D4D300B1B38E /* Foundation.framework */; };
 		9AB01B691885D4D300B1B38E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB01B681885D4D300B1B38E /* CoreGraphics.framework */; };
 		9AB01B6B1885D4D300B1B38E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB01B6A1885D4D300B1B38E /* UIKit.framework */; };
@@ -24,7 +28,6 @@
 		9AB01B9D1885E03900B1B38E /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB01B9C1885E03900B1B38E /* CreatureViewController.m */; };
 		9AB01BA01885E6D900B1B38E /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB01B9F1885E6D900B1B38E /* MagicalCreature.m */; };
 		9AB01BA21886054D00B1B38E /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB01BA11886054D00B1B38E /* CheckMate.framework */; };
-		9AB01BA8188639F000B1B38E /* Pics in Resources */ = {isa = PBXBuildFile; fileRef = 9AB01BA7188639F000B1B38E /* Pics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A289A681886589B009F427E /* Fluttershy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fluttershy.png; sourceTree = "<group>"; };
+		9A289A6A188658BA009F427E /* PinkiePie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkiePie.png; sourceTree = "<group>"; };
+		9A289A6B188658BA009F427E /* Rarity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rarity.png; sourceTree = "<group>"; };
+		9A289A7018865D41009F427E /* direwolf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = direwolf.jpg; sourceTree = "<group>"; };
 		9AB01B631885D4D300B1B38E /* MCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB01B661885D4D300B1B38E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9AB01B681885D4D300B1B38E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +69,6 @@
 		9AB01B9E1885E6D900B1B38E /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
 		9AB01B9F1885E6D900B1B38E /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
 		9AB01BA11886054D00B1B38E /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
-		9AB01BA7188639F000B1B38E /* Pics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pics; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +130,10 @@
 		9AB01B6C1885D4D300B1B38E /* MCMS */ = {
 			isa = PBXGroup;
 			children = (
-				9AB01BA7188639F000B1B38E /* Pics */,
+				9A289A681886589B009F427E /* Fluttershy.png */,
+				9A289A6A188658BA009F427E /* PinkiePie.png */,
+				9A289A6B188658BA009F427E /* Rarity.png */,
+				9A289A7018865D41009F427E /* direwolf.jpg */,
 				9AB01B751885D4D300B1B38E /* AppDelegate.h */,
 				9AB01B761885D4D300B1B38E /* AppDelegate.m */,
 				9AB01B781885D4D300B1B38E /* Main.storyboard */,
@@ -245,10 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A289A6D188658BA009F427E /* Rarity.png in Resources */,
+				9A289A6C188658BA009F427E /* PinkiePie.png in Resources */,
 				9AB01B7F1885D4D300B1B38E /* Images.xcassets in Resources */,
+				9A289A691886589B009F427E /* Fluttershy.png in Resources */,
 				9AB01B711885D4D300B1B38E /* InfoPlist.strings in Resources */,
 				9AB01B7A1885D4D300B1B38E /* Main.storyboard in Resources */,
-				9AB01BA8188639F000B1B38E /* Pics in Resources */,
+				9A289A7118865D41009F427E /* direwolf.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +500,7 @@
 				9AB01B971885D4D300B1B38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB01B981885D4D300B1B38E /* Build configuration list for PBXNativeTarget "MCMSTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				9AB01B9A1885D4D300B1B38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

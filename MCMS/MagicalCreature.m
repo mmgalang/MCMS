@@ -10,7 +10,7 @@
 
 @implementation MagicalCreature
 
-@synthesize name;
+//@synthesize name;
 
 
 @end

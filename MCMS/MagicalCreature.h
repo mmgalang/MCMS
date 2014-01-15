@@ -12,6 +12,6 @@
 
 @property NSString *name;
 @property NSString *description;
-@property UIImage *picture;
+@property UIImage *image;
 
 @end
